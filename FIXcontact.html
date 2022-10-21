@@ -35,10 +35,26 @@
   <div class="container">
     <div class="contact-container">
       <div class="contact-form">
+        <div class="contact-phys">
+          <p>49-10 Skillman Avenue</p>
+          <p>Sunnyside, NY 11377</p>
+          <a href="tel:+15167822986">(718) 651-2558</a>
+        </div>
         <p>Questions? Comments? Suggestions? We'd love to hear from you. Let us know what's happening on your side of the globe.</p>
         <form action="https://formsubmit.co/02f2c5c1f8fdc46404ea30046c946cad" method="POST">
+          <!-- Make sure to reset the form page to Globes github page and delete test page -->
+          <!-- the link in action will need to be worked out with Rena
+              1. Set up action="https://formsubmit.co/your@email.com" to rjskillmaninc@gmail.com
+              2. Get file saved on Globes Github page
+              3. Fill out form information, hit submit
+              4. Check email for activation, copy and paste the string for me to edit in the file in github
+              5. 
+          -->
+          <!-- Honeypot -->
+          <input type="text" name="_honey" style="display: none;">
           <input type="text" name="name" id="name" placeholder="name" required>
           <input type="email" name="email" id="email" placeholder="email" required>
+          <input type="text" name="phone" id="phoneNumber" placeholder="+1 (718) 867-5309">
           <input type="text" name="message" id="message" required>
           <input type="submit" value="Submit">
         </form>
